@@ -9,10 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let message = "Hello Git!"
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            print(message)
+        
     }
 
     override func didReceiveMemoryWarning() {
